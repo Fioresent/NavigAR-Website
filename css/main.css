@@ -1,0 +1,289 @@
+/***************************************
+Nav-bar
+/**************************************/
+
+/* Fix: Nav Bar- Collapse with Center Alignment*/
+.navbar.center .navbar-inner{
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display: inline-block;
+}
+
+#myNavbar{
+  overflow-x: hidden;
+  background-color: #E0E0E0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+
+}
+
+
+/***************************************
+Body
+/**************************************/
+
+body{
+	max-width: 100%;
+    overflow-x: hidden;
+	background-image: url("../img/iphone.png");
+	background-size: 500px 450px;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+	background-position: 53vw 20vh;
+	margin-top: 3%;
+	z-index: 0;
+}
+
+/***************************************
+Home
+/***************************************/
+#sec-home{
+	margin-top: -48px;
+	height:500px;
+}
+.front{
+	margin-top: -550px;
+}
+
+.main img{
+	background-color: transparent;
+	border: none;
+}
+
+.main h1{
+	color: white;
+	padding-bottom: 50px;
+}
+
+.main h3{
+	color: white;
+	padding-top: 40px;
+}
+
+/***************************************
+Info
+/**************************************/
+.info{
+	margin-top: 280px;
+	padding-left: 200px;
+}
+
+/***************************************
+One
+/**************************************/
+#sec-info{
+	margin-top: 50px;
+	z-index: -1;
+}
+
+.one{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	margin-top: 170px;
+	padding-bottom: 100px;
+
+}
+
+.one h1{
+	font-size: 60px;
+	color: green;
+	border: 1px solid green;
+	padding-left: 12px;
+	width: 60px;
+}
+
+.one h2{
+	font-size: 40px;
+}
+
+.one p{
+	padding-top: 10px;
+	width: 50%;
+	
+}
+
+.qr{
+	margin-top: -246px;
+	margin-left: 660px;
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+
+.qr2{
+	margin-top: -246px;
+	margin-left: 660px;
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+
+.qr3{
+	margin-top: -246px;
+	margin-left: 660px;
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+
+.qr4{
+	margin-top: -446px;
+	margin-left: 730px;
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+
+.js-qr-animate{
+	opacity: 1;
+}
+
+
+/***************************************
+Two
+/****************width: 50%;**********************/
+.two{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 100px;
+}
+
+.two h1{
+	font-size: 60px;
+	color: green;
+	border: 1px solid green;
+	padding-left: 12px;
+	width: 60px;
+}
+
+.two h2{
+	font-size: 40px;
+}
+
+
+.two p{
+	padding-top: 10px;
+	width: 50%;
+}
+
+/***************************************
+Three
+/**************************************/
+.three{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 100px;
+}
+
+.three h1{
+	font-size: 60px;
+	color: green;
+	border: 1px solid green;
+	padding-left: 12px;
+	width: 60px;
+}
+
+.three h2{
+	font-size: 40px;
+}
+
+
+.three p{
+	padding-top: 10px;
+	width: 50%;
+}
+
+/***************************************
+Download
+/**************************************/
+.download{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	margin-top: 200px;
+	padding-left: 100px;
+	padding-bottom: 100px;
+}
+
+.download h2{
+
+	font-size: 40px;
+}
+
+
+.download p{
+	padding-top: 10px;
+	width: 55%;
+}
+
+/***************************************
+Contact
+/**************************************/
+.contact{
+	position: relative;
+	height: 88vh;
+	width: 60%;
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 100px;
+}
+
+.contact h2{
+	padding-top: 120px;
+	font-size: 40px;
+}
+
+
+.contact p{
+	padding-top: 10px;
+	width: 55%;
+}
+.paddingtop{
+	padding-top: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/***************************************
+Footer
+/**************************************/
+footer{
+	width: 100vw;
+	height: 5vh;
+}
+
+ul{
+	color: gray;
+	opacity: .5;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+}
